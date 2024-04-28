@@ -15,3 +15,6 @@
 // Resultado 2*60*60 + 30*60 = 9000 segundos.
 
 // 4.-  Muestra en un aviso (alert), cuánto debe pagar un usuario por un producto con IVA(21%). ¿Tienes alguna manera de preguntarle el precio del producto al usuario?
+
+let productPrice = parseFloat(prompt("¿Cuál es el precio de tu producto?"))
+const productTax = alert("El precio de tu producto + IVA es: " + productPrice * 1.21)

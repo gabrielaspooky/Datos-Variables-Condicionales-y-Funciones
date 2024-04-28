@@ -1,16 +1,39 @@
 // 0.- Crea una función que salude al usuario por su nombre.  Puedes utilizar la consola o un cuadro de dialogo. Ej.: Hola Angel !!! 
 
-let userName = 'Gabriela';
 function sayHello() {
-    window.alert("Hello," + userName);
+    let userName = prompt("Type your name");
+    alert('Hello, ' + userName + "!");
 }
+
+sayHello();
+
 // 1.- Crea una función que tenga dos argumentos: num1, num2, y que devuelva como resultado la suma de ambos números. Se asume que se usarán solo números válidos, no letras o símbolos, es decir, no hace falta comprobar el dato ingresado.
 // Ej.: Llamo a la función como sumar(3,5) deberá devolver 8.
+
+
+function suma() {
+    let num1 = parseFloat(prompt("Dame el primer número de la suma"));
+    let num2 = parseFloat(prompt("Dame el segundo número de la suma"));
+    let resultado = num1+num2;
+    alert("Este es el resultado de tu suma: " + resultado);
+    }
+    suma();
+    
 
 // 2.- Esta función se va a llamar esPar(num) y deberá devolver verdadero si el argumento es par y falso si es impar. Se acepta que solo se usarán números válidos. Si quieres hacer la validación del dato, sería genial lograrlo. Puedes hacerlo aplicando condicionales, sin embargo, tienes las herramientas para hacerlo sin usar las condicionales.
 // Ej.: al llamarla como esPar(5) me dará false, mientras que con esPar(6) me dará true.
 
+function esPar(num)
+
 // 3.- Crea tres variables: lado1, lado2, lado3. Dale 3 valores numéricos. A continuación, crea una función y sus condicionales para que se muestre por consola si el triángulo es equilátero, isósceles o escaleno.
+
+let lado1 = 2
+let lado2 = 3
+let lado2 = 4
+
+function triangleType(equilátero, isósceles, escaleno) {
+     
+}
 
 // 4.- Subimos el nivel?... crea un programa que simule una calculadora con funciones para realizar operaciones matemáticas básicas. Pide al usuario dos números y el operador que utilizaras( "+" , "-" , "*" , "/" ).
 

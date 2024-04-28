@@ -5,6 +5,23 @@
 
 // 3.- Este ejercicio le indicará a los clientes que se dirijan a la barra de bebidas o a la de comidas, para ello el cliente puede pedir vino, cerveza, refresco, agua. Si pide un cerveza o vino se le dirige a la barra y si no, pues, se le dirige a la barra de comida.
 
+let foodType = prompt("¡Bienvenid@! ¿Qué deseas ordenar?");
+
+
+if (foodType === "cerveza" || foodType === "vino") {
+alert("Debes pedir en la barra de bebidas");
+    
+} 
+
+else if (foodType === "agua" || foodType === "refresco") {
+alert("Debes pedir en la barra de comidas")
+}
+
+else {
+    alert("Tu pedido no está disponible.")
+}
+
+
 // 4.- El usuario tecleará dos números. Debe devolver por consola, la diferencia entre el mayor y el menor.
 // Ej.: Si el usuario ingresa 5 y 8, el programa devolverá 3 .... (8-5=3). Utiliza TERNARIO, es decir, la forma cond ? true : false
 
