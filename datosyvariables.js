@@ -5,6 +5,21 @@
 // 5 huevos
 // 300 gr de cebolla.
 
+let comensales = prompt("¿Cuántos comensales desean tortilla?");
+let kgPatatas = 200;
+let huevosCantidad = 1;
+let gramosCebolla = 300;
+let totalPatatas = kgPatatas * comensales;
+let totalHuevos = huevosCantidad * (comensales / 5); // Calculamos la cantidad de huevos para comensales
+let totalCebolla = gramosCebolla * (comensales / 5); // Calculamos la cantidad de cebolla para comensales
+let totalIngredientes = totalPatatas + totalHuevos + totalCebolla;
+
+alert("Para preparar una tortilla para " + comensales + "necesitarás:" + 
+      "Patatas: " + totalPatatas + " gramos" +
+      "Huevos: " + totalHuevos + " unds" +
+      "Cebolla: " + totalCebolla + " gramos")
+
+
 // 2.- ✅ Dado un número por el usuario, devuelve por consola "true" si es un número par y "false" si es un número impar. No usar condicionales!!! aunque, puedes usar operadores de comparación.
 // Ej.: numero: 50
 // ¿Es par? : true
