@@ -22,17 +22,19 @@ else {
 }
 
 
-// 4.- El usuario tecleará dos números. Debe devolver por consola, la diferencia entre el mayor y el menor.
+// 4.✅ El usuario tecleará dos números. Debe devolver por consola, la diferencia entre el mayor y el menor.
 // Ej.: Si el usuario ingresa 5 y 8, el programa devolverá 3 .... (8-5=3). Utiliza TERNARIO, es decir, la forma cond ? true : false
 
-Let numberOperationOne = prompt("Teclea tu primer número")
+let numberOne = prompt("Teclea tu primer número")
 
-Let numberOperationTwo = prompt("Teclea tu segundo número ")
+let numberTwo = prompt("Teclea tu segundo número ")
 
+let numberRating = alert(numberOne - numberTwo) 
 
-Let numberRating = numberOperationOne - numveroperrtuonrwo ?  
+numberOne === numberTwo ?
+alert("No hay diferencia")
 
- console.log(scoreRating)
- 
+: numberRating;
+
 // 5.- El usuario debe ingresar dos datos: un número y su cuadrado. Si es correcto el programa enviará un mensaje de acierto en caso contrario dirá que se produjo un error. Utiliza TERNARIO, es decir, la forma cond ? true : false
 // Ej.: Si teclea 3 y 9 el resultado es Correcto. Si teclea 3 y 8, el resultado será Error. Se creativo con los mensajes ; )
