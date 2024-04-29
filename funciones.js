@@ -1,4 +1,4 @@
-// 0.- Crea una función que salude al usuario por su nombre.  Puedes utilizar la consola o un cuadro de dialogo. Ej.: Hola Angel !!! 
+// 0.- ✅ Crea una función que salude al usuario por su nombre.  Puedes utilizar la consola o un cuadro de dialogo. Ej.: Hola Angel !!! 
 
 function sayHello() {
     let userName = prompt("Type your name");
@@ -7,7 +7,7 @@ function sayHello() {
 
 sayHello();
 
-// 1.- Crea una función que tenga dos argumentos: num1, num2, y que devuelva como resultado la suma de ambos números. Se asume que se usarán solo números válidos, no letras o símbolos, es decir, no hace falta comprobar el dato ingresado.
+// 1.- ✅ Crea una función que tenga dos argumentos: num1, num2, y que devuelva como resultado la suma de ambos números. Se asume que se usarán solo números válidos, no letras o símbolos, es decir, no hace falta comprobar el dato ingresado.
 // Ej.: Llamo a la función como sumar(3,5) deberá devolver 8.
 
 
@@ -37,6 +37,28 @@ function triangleType(equilátero, isósceles, escaleno) {
 
 // 4.- Subimos el nivel?... crea un programa que simule una calculadora con funciones para realizar operaciones matemáticas básicas. Pide al usuario dos números y el operador que utilizaras( "+" , "-" , "*" , "/" ).
 
+function calculadora() {
+let num1 = parseFloat(prompt("Dame el primer número de tu operación"));
+let aritmeticSymbol = parseFloat(prompt("Dame el símbolo con el cual deseas realizar tu operación. Ejemplo: + si es suma, - si es resta, * si es división o / si se trata de una división."));
+let num2 = parseFloat(prompt("Dame el segundo número de tu operación")
+)
+let operationResult = 
+
+if (aritmeticSymbol === '+') {
+    alert(num1 + num2)
+}
+
+else if(aritmeticSymbol === '-')
+
+
+
+
+alert("Este es el resultado de tu operación: " num1 + aritmeticSymbol + num2);
+}
+
+calculadora()
+
+
 // 5.-  And last but not least:
 
 
@@ -54,3 +76,8 @@ function triangleType(equilátero, isósceles, escaleno) {
 // For example, calculateBMI(70, 1.75) should return 'Normal'.
 
 // Remember to round the BMI to two decimal places.
+
+function calculateBMI(weight, height) {
+    let weight =
+    let height = 
+}

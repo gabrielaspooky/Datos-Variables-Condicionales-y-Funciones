@@ -1,0 +1,3 @@
+parseFloat
+
+Uso del "return". ¿Opcional?
