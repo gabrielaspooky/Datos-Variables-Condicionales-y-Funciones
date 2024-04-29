@@ -1,6 +1,9 @@
 // 1.- En un tramo de un rally los conductores no deben ir ni demasiado rápido ni demasiado lentos. Este ejercicio debe tomar la longitud del tramo en kilómetros y el tiempo empleado en horas enteras, si la velocidad está entre 40 y 60 km/h el conductor pasa la prueba y en caso contrario es descalificado.
 // Ej. 75 km en 2 horas ó 120 km en 3 horas. (siempre, números enteros). Si recorre 100 km en 4 horas, ha ido a una velocidad de 100/4 que son 25km/h. Estaría descalificado.
 
+let tramoLongitud = 75
+let hora = 1
+
 // 2.- ✅ Crea un programa que pida la nota de un estudiante en los tres trimestres del curso y calcule la nota promedio (Solicita tres números en tres inputs distintos). El resultado que dará será "SUSPENDIDO" si la media es menor de 5, "APROBADO" si está entre 5 y 7 y "NOTABLE" por encima de 7.
 
 let firstGrade = parseFloat(prompt("Introduce tu calificación del primer trimestre"));

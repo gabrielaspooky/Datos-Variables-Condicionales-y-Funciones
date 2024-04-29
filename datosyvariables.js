@@ -5,7 +5,7 @@
 // 5 huevos
 // 300 gr de cebolla.
 
-let comensales = prompt("¿Cuántos comensales desean tortilla?");
+let comensales = parseFloat(prompt("¿Cuántos comensales desean tortilla?"));
 let kgPatatas = 200;
 let huevosCantidad = 1;
 let gramosCebolla = 300;
