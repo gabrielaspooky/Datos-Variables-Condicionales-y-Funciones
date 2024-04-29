@@ -14,10 +14,14 @@ let oddNumber = number % 2 !== 0
 let evenNumber = number % 2 === 0
 let numberType = console.log("¿Es par? " + evenNumber || oddNumber);
 
-// 3.- En este ejercicio debes convertir a segundos una medida de tiempo dada en horas y minutos. ¿Crees que es necesario recordar que una hora son 60 minutos y cada minuto son 60 segundos? ¿Por dónde mostraras el resultado?
+// 3.- ✅ En este ejercicio debes convertir a segundos una medida de tiempo dada en horas y minutos. ¿Crees que es necesario recordar que una hora son 60 minutos y cada minuto son 60 segundos? ¿Por dónde mostraras el resultado?
 // Ej.: horas : 2
 // minutos 30
 // Resultado 2*60*60 + 30*60 = 9000 segundos.
+
+let hours = parseFloat(prompt("Dime una hora"))
+let minutes = parseFloat(prompt("Dime una cantidad en minutos"))
+let totalSeconds = alert("Las horas y minutos que has introducido se traducen en: " + hours * 60 * 60 + (minutes * 60) + " segundos")
 
 // 4.- ✅ Muestra en un aviso (alert), cuánto debe pagar un usuario por un producto con IVA(21%). ¿Tienes alguna manera de preguntarle el precio del producto al usuario?
 
