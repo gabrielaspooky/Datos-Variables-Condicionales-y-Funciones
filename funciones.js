@@ -35,31 +35,40 @@ function triangleType(equilátero, isósceles, escaleno) {
      
 }
 
-// 4.- Subimos el nivel?... crea un programa que simule una calculadora con funciones para realizar operaciones matemáticas básicas. Pide al usuario dos números y el operador que utilizaras( "+" , "-" , "*" , "/" ).
+// 4.- ✅ Subimos el nivel?... crea un programa que simule una calculadora con funciones para realizar operaciones matemáticas básicas. Pide al usuario dos números y el operador que utilizaras( "+" , "-" , "*" , "/" ).
 
 function calculadora() {
 let num1 = parseFloat(prompt("Dame el primer número de tu operación"));
-let aritmeticSymbol = parseFloat(prompt("Dame el símbolo con el cual deseas realizar tu operación. Ejemplo: + si es suma, - si es resta, * si es división o / si se trata de una división."));
-let num2 = parseFloat(prompt("Dame el segundo número de tu operación")
-)
-let operationResult = 
+let mathSymbol = prompt("Dame el símbolo con el cual deseas realizar tu operación. Ejemplo: + si es suma, - si es resta, * si es división o / si se trata de una división.");
+let num2 = parseFloat(prompt("Dame el segundo número de tu operación"))
 
-if (aritmeticSymbol === '+') {
+
+if (mathSymbol === '+') {
     alert(num1 + num2)
 }
 
-else if(aritmeticSymbol === '-')
+else if (mathSymbol === '-') {
+    alert(num1 - num2)
+}
 
+else if(mathSymbol === '*') {
+alert(num1 * num2)
+}
 
+else if(mathSymbol === '/') {
+    alert(num1 / num2)
+    }
 
-
-alert("Este es el resultado de tu operación: " num1 + aritmeticSymbol + num2);
+    else {
+        alert("Parámetro inválido");
+        return;
+    }
 }
 
 calculadora()
 
 
-// 5.-  And last but not least:
+// 5.✅  And last but not least:
 
 
 // The Body Mass Index (BMI) is a way to estimate whether a person has a healthy weight for their height. It is calculated by dividing a person's weight (in kilograms) by the square of their height (in meters).
@@ -77,7 +86,34 @@ calculadora()
 
 // Remember to round the BMI to two decimal places.
 
-function calculateBMI(weight, height) {
-    let weight =
-    let height = 
+function calculateBMI() {
+    let weight = parseFloat(prompt("Introduce tu peso actual en Kg"));
+    let height = parseFloat(prompt("Introduce tu altura actual en metros"));
+    let userBMI = weight / (height * height);
+    alert("Your BMI is equal to: " + userBMI);
+
+if (userBMI < 18.5) {
+    alert('Underweight')
 }
+
+else if (userBMI > 18.5 && userBMI <=24.9) {
+alert('Normal')
+}
+
+else if (userBMI >= 25 && userBMI <=29)
+{
+alert('Overweight')
+}
+
+else if (userBMI >= 30)
+{
+    alert('Obesity')
+}
+
+else {
+    alert("Parámetro inválido");
+}
+
+}
+calculateBMI() 
+
