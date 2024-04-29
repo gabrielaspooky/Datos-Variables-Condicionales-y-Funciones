@@ -1,4 +1,4 @@
-// 1.- Una tortilla de patatas lleva 200 gramos de patatas por persona. Por cada kilo de patatas se necesitan 5 huevos y 300 gramos de cebolla. Escribe un código que, dado el número de comensales, calcule las cantidades de ingredientes necesarios y muestre por consola, un mensaje que indique el numero de comensales, y la cantidad de cada uno de los ingredientes.
+// 1 ✅.- Una tortilla de patatas lleva 200 gramos de patatas por persona. Por cada kilo de patatas se necesitan 5 huevos y 300 gramos de cebolla. Escribe un código que, dado el número de comensales, calcule las cantidades de ingredientes necesarios y muestre por consola, un mensaje que indique el numero de comensales, y la cantidad de cada uno de los ingredientes.
 // Ej: 5 comensales,
 // Se necesitará:
 // 1 kg de papas
@@ -14,7 +14,7 @@ let totalHuevos = huevosCantidad * (comensales / 5); // Calculamos la cantidad d
 let totalCebolla = gramosCebolla * (comensales / 5); // Calculamos la cantidad de cebolla para comensales
 let totalIngredientes = totalPatatas + totalHuevos + totalCebolla;
 
-alert("Para preparar una tortilla para " + comensales + "necesitarás:" + 
+console.log("Para preparar una tortilla para " + comensales + "necesitarás:" + 
       "Patatas: " + totalPatatas + " gramos" +
       "Huevos: " + totalHuevos + " unds" +
       "Cebolla: " + totalCebolla + " gramos")

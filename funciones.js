@@ -23,7 +23,13 @@ function suma() {
 // 2.- Esta función se va a llamar esPar(num) y deberá devolver verdadero si el argumento es par y falso si es impar. Se acepta que solo se usarán números válidos. Si quieres hacer la validación del dato, sería genial lograrlo. Puedes hacerlo aplicando condicionales, sin embargo, tienes las herramientas para hacerlo sin usar las condicionales.
 // Ej.: al llamarla como esPar(5) me dará false, mientras que con esPar(6) me dará true.
 
-function esPar(num)
+let num = prompt("Ingresa un número:");
+
+function esPar(num) {
+    return num % 2 === 0;
+}
+
+NO ME CONVENCE 
 
 // 3.- Crea tres variables: lado1, lado2, lado3. Dale 3 valores numéricos. A continuación, crea una función y sus condicionales para que se muestre por consola si el triángulo es equilátero, isósceles o escaleno.
 
@@ -33,7 +39,7 @@ let lado2 = 4
 
 function triangleType(equilátero, isósceles, escaleno) {
      
-}
+} NO FINALIZADO
 
 // 4.- ✅ Subimos el nivel?... crea un programa que simule una calculadora con funciones para realizar operaciones matemáticas básicas. Pide al usuario dos números y el operador que utilizaras( "+" , "-" , "*" , "/" ).
 
